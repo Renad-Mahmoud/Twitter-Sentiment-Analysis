@@ -11,10 +11,15 @@ A sentiment distribution chart
 
 Features
 Collects live data from Twitter
+
 Preprocesses and tokenizes text
+
 Classifies sentiment using BERT
+
 Supports 3 sentiment classes: Positive, Negative, Neutral
+
 Saves predictions in CSV format
+
 Generates a visual sentiment summary (bar chart or pie chart)
 
 Dataset
