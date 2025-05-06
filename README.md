@@ -55,7 +55,7 @@ Balanced to include 33,000 rows for each class of three classes
 
 -Output:
 
-Sentiment label (0 = Negative, 1 = Neutral, 2 = Positive)
+    Sentiment label (0 = Negative, 1 = Neutral, 2 = Positive)
 
 -Results
 
@@ -71,11 +71,11 @@ Sentiment label (0 = Negative, 1 = Neutral, 2 = Positive)
 
 ## Future Work
 
--Deploy as a web app 
+    -Deploy as a web app 
 
--Add multilingual sentiment support
+    -Add multilingual sentiment support
 
--Integrate a feedback loop to improve predictions over time
+    -Integrate a feedback loop to improve predictions over time
 
--Extend to other platforms (e.g., Facebook, google, YouTube comments)
+    -Extend to other platforms (e.g., Facebook, google, YouTube comments)
 
