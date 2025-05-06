@@ -7,11 +7,11 @@ The system connects to the Twitter API to collect live tweets, processes them us
 
 -The final output includes:
 
-Predicted sentiment labels
+    Predicted sentiment labels
 
-Exported results to a CSV file
+    Exported results to a CSV file
 
-A sentiment distribution chart
+    A sentiment distribution chart
 
 ## Features
 
@@ -33,11 +33,11 @@ A sentiment distribution chart
 
 -Preprocessing:
 
-Cleaned text (punctuation, Hashtags, mentions)
+    Cleaned text (punctuation, Hashtags, mentions)
 
-Removed short/irrelevant text
+    Removed short/irrelevant text
 
-Balanced to include 33,000 rows for each class of three classes
+    Balanced to include 33,000 rows for each class of three classes
 
 ## Model
 
