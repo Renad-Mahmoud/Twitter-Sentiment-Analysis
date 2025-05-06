@@ -5,7 +5,7 @@ It get real-time Twitter search data then classifies it into three categories: P
 ## Overview
 The system connects to the Twitter API to collect live tweets, processes them using a BERT-based model, and classifies their sentiment. 
 
-The final output includes:
+-The final output includes:
 
 Predicted sentiment labels
 
@@ -15,70 +15,67 @@ A sentiment distribution chart
 
 ## Features
 
-Collects live data from Twitter
+-Collects live data from Twitter
 
-Preprocesses and tokenizes text
+-Preprocesses and tokenizes text
 
-Classifies sentiment using BERT
+-Classifies sentiment using BERT
 
-Supports 3 sentiment classes: Positive, Negative, Neutral
+-Supports 3 sentiment classes (Positive, Negative, Neutral)
 
-Saves predictions in CSV format
+-Saves predictions in CSV format
 
-Generates a visual sentiment summary (bar chart or pie chart)
+-Generates a visual sentiment summary (bar chart or pie chart)
 
 ## Dataset
 
-Sources:
+-Sources:Datasets from Kaggle
 
-Datasets from Kaggle
+-Preprocessing:
 
-Preprocessing:
-
-Cleaned text (punctuation, stopwords)
-
-tokenization
+Cleaned text (punctuation, Hashtags, mentions)
 
 Removed short/irrelevant text
 
 Balanced to include 33,000 rows for each class of three classes
 
 ## Model
-Architecture: bert-base-uncased 
 
-Training:
+-Architecture: bert-base-uncased 
 
-Fine-tuned on the cleaned dataset
+-Training:
 
-Trained using GPU in Google Colab
+    Fine-tuned on the cleaned dataset
 
-Optimizer: AdamW
+    Trained using GPU in Google Colab
 
-Loss: CrossEntropyLoss
+-Optimizer: AdamW
 
-Output:
+-Loss: CrossEntropyLoss
+
+-Output:
 
 Sentiment label (0 = Negative, 1 = Neutral, 2 = Positive)
 
-Results
+-Results
 
-Accuracy: ~85%
+    Accuracy: ~85%
 
-Evaluated using:
+-Evaluated using:
 
-Confusion Matrix
+    Confusion Matrix
 
-Classification Report (Precision, Recall, F1-Score)
+    Classification Report (Precision, Recall, F1-Score)
 
-Strong performance across all three classes
+    Strong performance across all three classes
 
 ## Future Work
 
-Deploy as a web app 
+-Deploy as a web app 
 
-Add multilingual sentiment support
+-Add multilingual sentiment support
 
-Integrate a feedback loop to improve predictions over time
+-Integrate a feedback loop to improve predictions over time
 
-Extend to other platforms (e.g., Facebook, google, YouTube comments)
+-Extend to other platforms (e.g., Facebook, google, YouTube comments)
 
