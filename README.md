@@ -1,4 +1,5 @@
-# Real-Time_Twitter-Sentiment-Analysis using BERT
+# Real
+Time_Twitter-Sentiment-Analysis using BERT
 ## Overview
 This project is designed to provide an end-to-end solution for understanding the sentiment of social media posts(Twitter). 
 
