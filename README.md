@@ -49,7 +49,7 @@ The project prepares a balanced dataset, fine-tunes a high-performing BERT model
 
     - Output: A CSV + visual sentiment summary.
 
-# Finally, you simply enter a topic or keyword, and the system will fetch relevant live tweets, analyze their sentiment save the results to a CSV file, and generate visualizations for better sentiment insight.
+### Finally, you simply enter a topic or keyword, and the system will fetch relevant live tweets, analyze their sentiment save the results to a CSV file, and generate visualizations for better sentiment insight.
 
 ## Future Work
 
