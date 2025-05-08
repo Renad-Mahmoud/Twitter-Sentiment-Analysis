@@ -7,17 +7,17 @@ The project prepares a balanced dataset, fine-tunes a high-performing BERT model
 # Notebooks Description
 
 ## Data Preparation (Data_Preparation.ipynb)
-    This notebook handles the preprocessing and preparation of the sentiment dataset:
+    - This notebook handles the preprocessing and preparation of the sentiment dataset:
 
-    Merges 4 different Kaggle datasets into a unified format.
+    - Merges 4 different Kaggle datasets into a unified format.
 
-    Cleans the data by removing null values, duplicates, and very short texts.
+    - Cleans the data by removing null values, duplicates, and very short texts.
 
-    Balances the dataset by selecting 33,000 samples for each sentiment class.
+    - Balances the dataset by selecting 33,000 samples for each sentiment class.
 
-    Shuffles and resets the index to prepare the data for training.
+    - Shuffles and resets the index to prepare the data for training.
 
-    Output: A clean and balanced dataset ready for model training. 
+    - Output: A clean and balanced dataset ready for model training. 
 
 ## BERT Model Training (bert_Sentiment_analysis.ipynb)
     This notebook fine-tunes a BERT-based transformer model for sentiment classification:
