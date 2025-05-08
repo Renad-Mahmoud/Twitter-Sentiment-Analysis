@@ -4,9 +4,9 @@ This project is designed to provide an end-to-end solution for understanding the
 
 The project prepares a balanced dataset, fine-tunes a high-performing BERT model for sentiment classification, and implements a real-time pipeline to analyze and visualize live tweets. It achieves 85% accuracy with strong evaluation metrics, making it effective for real-world sentiment analysis.
 
-## Notebooks Description
+# Notebooks Description
 
-# Data Preparation (Data_Preparation.ipynb)
+## Data Preparation (Data_Preparation.ipynb)
 This notebook handles the preprocessing and preparation of the sentiment dataset:
 
 Merges 4 different Kaggle datasets into a unified format.
@@ -19,7 +19,7 @@ Shuffles and resets the index to prepare the data for training.
 
 Output: A clean and balanced dataset ready for model training.
 
-# BERT Model Training (bert_Sentiment_analysis.ipynb)
+## BERT Model Training (bert_Sentiment_analysis.ipynb)
 This notebook fine-tunes a BERT-based transformer model for sentiment classification:
 
 Loads and tokenizes the cleaned dataset.
@@ -34,7 +34,7 @@ Saves the trained model for future inference.
 
 Final Accuracy: 85%
 
-# Real-Time Twitter Sentiment Pipeline (real_time_Twitter_Sentiment_analysis.ipynb)
+## Real-Time Twitter Sentiment Pipeline (real_time_Twitter_Sentiment_analysis.ipynb)
 This notebook creates a real-time pipeline to collect and analyze tweets:
 
 Uses the Twitter API to collect tweets based on specific keywords or hashtags.
