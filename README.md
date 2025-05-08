@@ -7,47 +7,47 @@ The project prepares a balanced dataset, fine-tunes a high-performing BERT model
 # Notebooks Description
 
 ## Data Preparation (Data_Preparation.ipynb)
-This notebook handles the preprocessing and preparation of the sentiment dataset:
+  This notebook handles the preprocessing and preparation of the sentiment dataset:
 
-Merges 4 different Kaggle datasets into a unified format.
+  Merges 4 different Kaggle datasets into a unified format.
 
-Cleans the data by removing null values, duplicates, and very short texts.
+  Cleans the data by removing null values, duplicates, and very short texts.
 
-Balances the dataset by selecting 33,000 samples for each sentiment class.
+  Balances the dataset by selecting 33,000 samples for each sentiment class.
 
-Shuffles and resets the index to prepare the data for training.
+  Shuffles and resets the index to prepare the data for training.
 
-Output: A clean and balanced dataset ready for model training.
+  Output: A clean and balanced dataset ready for model training.
 
 ## BERT Model Training (bert_Sentiment_analysis.ipynb)
-This notebook fine-tunes a BERT-based transformer model for sentiment classification:
+  This notebook fine-tunes a BERT-based transformer model for sentiment classification:
 
-Loads and tokenizes the cleaned dataset.
+  Loads and tokenizes the cleaned dataset.
 
-Splits data into train, test and validation sets with stratify to preserve class distribution.
+  Splits data into train, test and validation sets with stratify to preserve class distribution.
 
-Fine-tunes the model using GPU acceleration.
+  Fine-tunes the model using GPU acceleration.
 
-Evaluates the model using accuracy, confusion matrix, precision, recall, and F1-score.
+  Evaluates the model using accuracy, confusion matrix, precision, recall, and F1-score.
 
-Saves the trained model for future inference.
+  Saves the trained model for future inference.
 
-Final Accuracy: 85%
+  Final Accuracy: 85%
 
 ## Real-Time Twitter Sentiment Pipeline (real_time_Twitter_Sentiment_analysis.ipynb)
-This notebook creates a real-time pipeline to collect and analyze tweets:
+  This notebook creates a real-time pipeline to collect and analyze tweets:
 
-Uses the Twitter API to collect tweets based on specific keywords or hashtags.
+  Uses the Twitter API to collect tweets based on specific keywords or hashtags.
 
-Preprocesses and feeds the live tweets into the fine-tuned BERT model.
+  Preprocesses and feeds the live tweets into the fine-tuned BERT model.
 
-Predicts sentiment labels (Positive, Negative, Neutral) for each tweet.
+  Predicts sentiment labels (Positive, Negative, Neutral) for each tweet.
 
-Saves results (tweet text, sentiment, metadata) into a .csv file.
+  Saves results (tweet text, sentiment, metadata) into a .csv file.
 
-Visualizes the sentiment distribution using graphs for better interpretation (bar, pie chart).
+  Visualizes the sentiment distribution using graphs for better interpretation (bar, pie chart).
 
-Output: A CSV + visual sentiment summary.
+  Output: A CSV + visual sentiment summary.
 
 ## Future Work
 
